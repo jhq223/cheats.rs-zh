@@ -1,7 +1,7 @@
 # Rust 语言速查表 (中文版)
 
-[![在线阅读](gfx/button_read-online2.png)]()
-[![原始项目](gfx/button_original-project2.png)](https://cheats.rs) 
+[![在线阅读](gfx/button_read-online2.png)](https://cheats-rs-zh.pages.dev)
+[![原始项目](gfx/button_read-online2.png)](https://cheats.rs) 
 
 本项目是广受欢迎的 [**cheats.rs**](https://cheats.rs) 的简体中文翻译版，旨在为中文 Rust 社区提供一个信息密度高、内容全面的单页速查资源。
 
