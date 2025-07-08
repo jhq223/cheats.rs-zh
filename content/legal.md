@@ -4,52 +4,52 @@ weight = 100
 +++
 
 
-# Legal Information
+# 法律信息
 
 
-## Hosting
+## 托管
 
-The _Operator_ and _Privacy_ sections only apply to the site [**cheats.rs**](https://cheats.rs), not if you reached this work by other means.
+*运营者*和*隐私*部分仅适用于网站 [**cheats.rs**](https://cheats.rs)，如果你通过其他方式接触到本作品，则不适用。
 
-### Operator
+### 运营者
 
-<!-- NOTICE - THIS SECTION IS NOT COVERED BY CC- OR ANY OTHER LICENSE -->
+<!-- 注意 - 此部分不受 CC 或任何其他许可证的保护 -->
 
-Ralf Biedert (<a href="mailto:webmaster@cheats.rs">mail</a>, <a href="https://xr.io">web</a>)
+[jhq223] (<a href="mailto:jhq223@gmail.com">邮件</a>)
 
-<!-- END NOTICE -->
-
-
-### Privacy, GDPR
-
-- This site utilizes **Cloudflare's CDN** and the [Rust Playground](https://play.rust-lang.org/) for the **Edit & Run** feature.
-- We do not track users, and our hosting provider retains, to our knowledge, only aggregate statistics.
-- Browser local storage is used for settings retention upon request, without data leaving your device.
-- Developer assets and meta data are hosted on GitHub, subject to their privacy policies.
+<!-- 结束注意 -->
 
 
+### 隐私，GDPR
 
-## Terms of Service
-
-- **You**, with the help of a browser, may freely access this site if in good standing, see below.
-- **Bots** can read data occasionally (e.g., once every few days), but cannot POST or use API endpoints.
-- **Feedback buttons** allow sentiment and text submissions, which we store in the European Union. Feedback, when organically submitted, can be in any words or language, all of which are considered fair use. By submitting feedback, you grant us rights to use, process, share, and publish it.
-- **Good Standing** - This work is provided on a reciprocity basis. Parties may use it as outlined if they refrain from interfering with its operations, content, design, or other aspects. Interference, defined as any action that reasonably compels undesired change to the work, will result in immediate termination of all granted rights and licenses ('loss of good standing') for the party and its current and future affiliates, e.g., Staff, Board of Directors, Advisors; both in their official and private capacity. For more details [see the FAQ](/faq#legal).
+-   本站利用 **Cloudflare 的 CDN** 以及 [Rust Playground](https://play.rust-lang.org/) 来实现**编辑与运行**功能。
+-   我们不追踪用户，据我们所知，我们的托管提供商仅保留汇总的统计数据。
+-   应用户请求，浏览器本地存储被用于保留设置，数据不会离开你的设备。
+-   开发者资产和元数据托管在 GitHub 上，受其隐私政策约束。
 
 
 
-## Copyright Information
+## 服务条款
 
-This work is licensed to parties in good standing as CC-BY with the following exceptions:
+-   **你**，在浏览器的帮助下，如果在信誉良好的情况下，可以自由访问本站，详见下文。
+-   **机器人**可以偶尔读取数据（例如，每隔几天一次），但不能进行 POST 请求或使用 API 端点。
+-   **反馈按钮**允许提交情绪和文本，我们将其存储在欧盟。自然提交的反馈可以用任何词语或语言，所有这些都被视为合理使用。通过提交反馈，你授予我们使用、处理、分享和发布它的权利。
+-   **良好信誉** - 本作品基于互惠原则提供。各方如果避免干预其运营、内容、设计或其他方面，则可以按所述方式使用它。干预，被定义为任何合理地迫使对作品进行非自愿更改的行为，将导致该方及其当前和未来的关联方（例如，员工、董事会、顾问；无论是以官方还是私人身份）所有被授予的权利和许可立即终止（即“失去良好信誉”）。更多细节请[参见 FAQ](/faq#legal)。
 
-- Rust source snippets are always CC-0.
-- Metadata (any data not directly needed to reproduce this work) and author names are never licensed.
-- While giving credit is appreciated, reproductions **must change the _Operator_ section** above, and must not appear to be controlled or endorsed by the author in any way.
 
 
-### Third Party Assets
+## 版权信息
 
-These assets are shipped with the site.
+本作品在信誉良好的情况下，以 CC-BY 许可证授权给各方，但有以下例外：
+
+-   Rust 源代码片段永远是 CC-0。
+-   元数据（任何非直接需要重现本作品的数据）和作者姓名永远不被授权。
+-   虽然署名会受到赞赏，但复制品**必须更改上方的*运营者*部分**，并且绝不能以任何方式显得是由原作者控制或认可的。
+
+
+### 第三方资产
+
+这些资产随网站一起分发。
 
 - [normalize.css](https://github.com/necolas/normalize.css), Nicolas Gallagher and Jonathan Neal, MIT licensed
 - [Fira Code](https://github.com/tonsky/FiraCode), Fira Code Project Authors, OFL-1.1
@@ -58,24 +58,24 @@ These assets are shipped with the site.
 - [prism.js](https://prismjs.com/), Lea Verou, MIT licensed
 - Tabbed CSS Panels, Vesa Piittinen, MIT licensed
 
-## Used Services
+## 使用的服务
 
-These services are sometimes used by this site.
+本站有时会使用这些服务。
 
-- [The Rust Playground](https://play.rust-lang.org/), created by Jake Goulding, part of Integer 32; hosted via [play.rust-lang.org](https://play.rust-lang.org)
-
-
-
-## Disclaimer
-
-We do our best to keep things correct, but no warranty is given any information presented on this site is actually true. Use at your own risk.
-
-Feel free to use [**this issue tracker**](https://github.com/ralfbiedert/cheats.rs/issues) to submit improvements.
+- [The Rust Playground](https://play.rust-lang.org/), by Jake Goulding, part of Integer 32; hosted via [play.rust-lang.org](https://play.rust-lang.org)
 
 
-## Trademark Information
 
-This work refers to trademarked products. In particular the "Rust" and "Cargo" names and logos are trademarks of the [**Rust Foundation**](https://foundation.rust-lang.org/policies/logo-policy-and-media-guide/) and may only be used according to their trademark policy.
+## 免责声明
+
+我们尽最大努力保持信息的正确性，但对本站上提供的任何信息的真实性不作任何保证。使用风险自负。
+
+欢迎使用[**此问题跟踪器**](https://github.com/ralfbiedert/cheats.rs/issues)提交改进。
+
+
+## 商标信息
+
+本作品提及了带有商标的产品。特别是，“Rust”和“Cargo”的名称和徽标是[**Rust 基金会**](https://foundation.rust-lang.org/policies/logo-policy-and-media-guide/)的商标，并且只能根据其商标政策使用。
 
 
 

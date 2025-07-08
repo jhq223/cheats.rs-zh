@@ -3,128 +3,128 @@ template = "misc.html"
 weight = 100
 +++
 
-# FAQ
+# 常见问题
 
 ---
 
 
-## Site
+## 网站
 
-### Who is the target audience? Why don't you explain ...?
+### 目标受众是谁？为什么不解释……？
 
-At the risk of being overly specific, the _persona_ the page is written for:
+冒着说得过于具体的风险，本页面是为以下*人物画像*编写的：
 
-- 3+ years non-Rust programming experience (Java, Python, C, ...)
-- 2+ weeks Rust experience (read a book or completed a tutorial)
-- some familiarity with C-level concepts (memory, pointers)
+-   拥有 3 年以上非 Rust 编程经验（Java, Python, C, ...）
+-   拥有 2 周以上 Rust 经验（读过一本书或完成了一个教程）
+-   对 C 语言级别的概念（内存、指针）有一定了解
 
-We of course hope to provide value even if someone doesn't fall into that bucket, but not at the expense of a streamlined experience for our target audience.
-
-
-### I sent a message earlier, why didn't you fix ... ?
-
-Some of the _wontfix_ end up on Github with a brief comment why. The most common reason something didn't get fixed: The comment was too short or cryptic, and it was unclear what's actually broken.
+我们当然希望即使不属于这个范畴的人也能从中获益，但我们不会为了这个目标而牺牲我们目标受众的流畅体验。
 
 
-### Why all the HTML graphics? Why don't you use images?
+### 我之前发了条消息，为什么你没修复……？
 
-Images are easier to create, but harder to version. Between PNGs and SVGs, HTML had the nicest balance.
-
-
-### I created X, can you link it?
-
-Maybe. The current policy is not set in stone but is vaguely:
-
-- To add items to an existing list the entry should be high quality and the list shouldn't grow too long.
-- To add a specific link somewhere else it should be _the best of its kind_ for that purpose.
+一些被标记为 *wontfix* (不修复) 的问题会在 GitHub 上附带简短的评论解释原因。最常见的未修复原因是：评论过于简短或含糊不清，导致不清楚具体哪里出了问题。
 
 
-### Why the pentagram?
+### 为什么用这么多 HTML 图形？为什么不用图片？
 
-The pentagram has a few desirable properties:
-
-- easier and safer to execute compared to heptagrams and tridecagrams,
-- faster to draw,
-- has excellent documentation spanning several centuries,
-- and, most importantly, it requires less blood and is therefore more ergonomic.
-
-In other words, the pentagram is the Rust of summoning circles.
+图片更容易创建，但更难进行版本控制。在 PNG、SVG 和 HTML 之间，HTML 达到了最佳的平衡。
 
 
-### Are you a Satanist?
+### 我创建了 X，你能链接到它吗？
 
-All inquiries in this matter should be directed to your bathroom mirror on a moonless night.
+也许可以。目前的政策并非一成不变，但大致如下：
 
-
-### Can you remove the pentagram?
-
-The pentagram has spoken. The pentagram stays.
+-   向现有列表添加条目时，该条目应质量上乘，且列表不应变得过长。
+-   在其他地方添加特定链接时，它应该是该用途下*同类中最好的*。
 
 
+### 为什么是五芒星？
 
-## Operations
+五芒星有几个理想的特性：
 
-### How can I build an offline copy?
+-   与七芒星和十三芒星相比，执行起来更简单、更安全，
+-   绘制速度更快，
+-   拥有跨越数个世纪的优秀文档，
+-   而且，最重要的是，它需要的血液更少，因此更符合人体工程学。
 
-On Linux & macOS the following command should work. For Windows you have to adapt `$PWD` accordingly:
+换句话-   话说，五芒星是召唤法阵中的 Rust。
 
-```
+
+### 你是撒旦教徒吗？
+
+关于此事的所有垂询，请在一个无月之夜对着你的浴室镜子进行。
+
+
+### 你能移除那个五芒星吗？
+
+五芒星已经发话了。五芒星留下。
+
+
+
+## 运维
+
+### 我如何构建一个离线副本？
+
+在 Linux 和 macOS 上，以下命令应该可以工作。对于 Windows，你需要相应地调整 `$PWD`：
+
+```bash
 zola build --base-url="$PWD/public/index.html" --output-dir="$PWD/public"
 ```
 
 
-### How can I see what the deployed version is?
+### 我如何查看部署的版本是什么？
 
-Click the date / subtitle line, it will give you the Git hash of the currently deployed version.
+点击日期/副标题那一行，它会显示当前部署版本的 Git 哈希值。
 
 
 
-### I just formatted my drive, how do I run the deploy script?
+### 我刚格式化了我的硬盘，我该如何运行部署脚本？
 
-On Windows:
-- Install Git, add all Unix tools (esp. `bash`) to PATH
-- In 'Environment Variables', bump Git PATH above Windows `C:\windows\system32` PATH
-- Install Zola
-- Install Node
+在 Windows 上：
+- 安装 Git，并将所有 Unix 工具（尤其是 `bash`）添加到 PATH
+- 在“环境变量”中，将 Git 的 PATH 提升到 Windows `C:\windows\system32` PATH 之上
+- 安装 Zola
+- 安装 Node
 - `npm install`
 
 
 
-### How do I upgrade Prism?
+### 我该如何升级 Prism？
 
-- Visit [https://prismjs.com/download.html](https://prismjs.com/download.html)
-- Select version: "Minified"
-- Select theme: "Default"
-- Select languages: "Rust" (and only Rust)
-- Select plugins: "Keep Markup", "Highlight Keywords" (experimental)
-- Save files and replace the ones in `static`
-- In `git`, discard changes to CSS which now make the page look ugly (for example but not limited to: `font-style`, `background`, ...)
+- 访问 [https://prismjs.com/download.html](https://prismjs.com/download.html)
+- 选择版本："Minified"
+- 选择主题："Default"
+- 选择语言："Rust" (并且只有 Rust)
+- 选择插件："Keep Markup", "Highlight Keywords" (实验性)
+- 保存文件并替换 `static` 目录中的文件
+- 在 `git` 中，丢弃那些现在让页面变得难看的 CSS 更改（例如但不限于：`font-style`, `background`, ...）
 
 
-### Convert unwilling images to data URIs?
+### 如何将不情愿的图片转换为数据 URI？
 
 - https://ezgif.com/image-to-datauri
-- Add to `postprocess.js`
+- 添加到 `postprocess.js`
 
 
 
-## Legal
+## 法律
 
-### Am I allowed to translate the page?
+### 我可以翻译这个页面吗？
 
-Yes, just go ahead. You do not need to ask for extra permission and there are no _special_ requirements. However, I would kindly ask you to [respect what is written here](/legal). The easiest way of doing that is
+可以，尽管去做吧。你不需要申请额外的许可，也没有*特殊*要求。不过，我恳请你[尊重这里写明的内容](/legal)。最简单的方法是：
 
-- Change the page footer to something like:
+-   将页面页脚更改为类似这样：
     ```
-    Translated and hosted by [YOU], based on cheats.rs (Ralf Biedert)
+    由 [你] 翻译和托管，基于 cheats.rs (Ralf Biedert)
     ```
-- Remove my name from the "Operator" section.
+-   从“运营者”部分移除我的名字。
 
 
-### What does 'interference' mean?
+### “干预 (interference)” 是什么意思？
 
-Basically this work is about providing high quality content in a particular format. We respect all rights and reasonable positions (IP or otherwise) of 3<sup>rd</sup> parties. That said, if you use IP laws or similar, in a way that could be perceived as threatening, to influence content or design of our or similar works you will lose 'good standing'.
+基本上，这项工作旨在以特定格式提供高质量的内容。我们尊重所有第三方的一切权利和合理立场（无论是知识产权还是其他）。话虽如此，如果你以一种可能被视为威胁的方式，使用知识产权法或类似手段来影响我们或类似作品的内容或设计，你将失去“良好信誉”。
 
-To be perfectly clear, if you are in good standing you can freely copy or re-host the work, or perform [almost any](/legal#copyright-information) change you like on your own copy, and you'd really only lose that status if you 'went around trying to enforce your will on others'.
+说得再清楚一点，如果你信誉良好，你可以自由地复制或重新托管这项工作，或者对你自己的副本进行[几乎任何你喜欢的更改](/legal#copyright-information)，你只会在“试图将你的意志强加于人”时才会失去这种信誉。
 
 {{ tablesep() }}
